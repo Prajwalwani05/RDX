@@ -1,0 +1,2056 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav {
+    display: block
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+/* manrope-200 - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    src: url('fonts/manrope-v15-greek_latin-200.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-300 - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/manrope-v15-greek_latin-300.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-regular - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/manrope-v15-greek_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-500 - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/manrope-v15-greek_latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-600 - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/manrope-v15-greek_latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-700 - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/manrope-v15-greek_latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-800 - greek_latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: url('fonts/manrope-v15-greek_latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* quattrocento-regular - latin */
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/quattrocento-v21-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* quattrocento-700 - latin */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/quattrocento-v21-latin-700.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Dahlia-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Dahlia-Regular.woff2') format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 100%;
+    line-height: 1;
+    cursor: none;
+    background: #000 !important;
+}
+
+body .cursor {
+    pointer-events: none;
+}
+
+body .cursor__ball {
+    position: fixed;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    z-index: 1000;
+}
+
+body .cursor__ball circle {
+    fill: #f7f8fa;
+}
+
+img {
+    border: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+a {
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+button {
+    cursor: none;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a,
+li a {
+    transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s
+}
+
+@media only screen and (max-width:1024px) {
+    body .cursor {
+        pointer-events: none;
+        display: none;
+    }
+    body {
+        cursor: default;
+    }
+    button {
+        cursor: default;
+    }
+    a {
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+}
+
+img {
+    -ms-interpolation-mode: bicubic
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Manrope', sans-serif;
+    line-height: 29px;
+}
+
+.wpb_wrapper p ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.wpb_wrapper p li {
+    padding-left: 16px;
+    font-size: 14px
+}
+
+.wpb_wrapper p li:before {
+    content: "•";
+    padding-right: 8px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: #555
+}
+
+.page-id-34 #breadholder {
+    display: none
+}
+
+.page-id-584 #breadholder {
+    display: none
+}
+
+.page-id-2 #breadholder {
+    display: none
+}
+
+.wpcf7-form label {
+    font-size: 0px !important;
+}
+
+.wpcf7-form .ghggh {
+    font-size: 14px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    font-family: "Manrope", sans-serif;
+}
+
+h1 {
+    font-size: 72px;
+    color: #85754E;
+}
+
+@media only screen and (max-width:932px) and (min-width:280px) {
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 400;
+    }
+}
+
+h2 {
+    font-size: 1.6875rem
+}
+
+h3 {
+    font-size: 32PX;
+    line-height: 42px;
+}
+
+h4 {
+    font-size: 21px
+}
+
+h5 {
+    font-size: 1.125rem
+}
+
+h6 {
+    font-size: 16px !important
+}
+
+.subheader {
+    line-height: 1.4;
+    color: #6f6f6f;
+    font-weight: 300;
+    margin-top: .2rem;
+    margin-bottom: .5rem
+}
+
+hr {
+    border: solid #DDD;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 1.25rem 0 1.1875rem
+}
+
+em,
+i {
+    font-style: italic;
+    line-height: inherit
+}
+
+strong,
+b {
+    font-weight: 400;
+    line-height: inherit
+}
+
+small {
+    font-size: 60%;
+    line-height: inherit
+}
+
+code {
+    background-color: #f8f8f8;
+    border-color: #dfdfdf;
+    border-style: solid;
+    border-width: 1px;
+    color: #555333;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-weight: 400;
+    padding: .125rem .3125rem .0625rem
+}
+
+ul,
+ol,
+dl {
+    font-family: inherit;
+    list-style-position: outside;
+}
+
+ul {}
+
+ul li ul,
+ul li ol {}
+
+ul.square li ul,
+ul.circle li ul,
+ul.disc li ul {
+    list-style: inherit
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.disc {
+    list-style-type: disc;
+}
+
+ol {}
+
+ol li ul,
+ol li ol {
+    margin-bottom: 0
+}
+
+.no-bullet {
+    list-style-type: none;
+    margin-left: 0
+}
+
+.no-bullet li ul,
+.no-bullet li ol {
+    margin-bottom: 0;
+    list-style: none
+}
+
+dl dt {
+    font-weight: 400
+}
+
+dl dd {}
+
+.pagewrapfull {
+    margin: 0 auto;
+    padding: 0 0px 0 0px;
+    position: relative;
+}
+
+.pagewrap {
+    margin: 0 auto;
+    padding: 0 80px 0 80px;
+    position: relative;
+}
+
+.pagewraptop {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+    position: relative;
+}
+
+.pagewrapfooter {
+    margin: 0 auto;
+    padding: 0 35px 0 35px;
+    position: relative
+}
+
+.biglogo {
+    padding: 0 90px;
+    margin-bottom: 50px;
+    margin-top: 280px;
+}
+
+.menuholder {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 21px 21px 0px 21px;
+    background: transparent;
+    z-index: 999;
+}
+
+.slogholder {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    .slogholder {
+        position: absolute;
+        top: 25%;
+    }
+}
+
+.slog {
+    max-width: 860px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+.lefttop {
+    font-size: 82px;
+    coloR: #fff;
+    line-height: 92px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-family: Quattrocento;
+    display: inline-block;
+}
+
+.righttop {
+    font-size: 82px;
+    coloR: #fff;
+    line-height: 92px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-family: Dahlia-Regular;
+    display: inline-block;
+}
+
+.middletop {
+    max-width: 700px;
+    font-size: 24px;
+    coloR: #fff;
+    display: block;
+    font-family: Manrope;
+    text-transform: uppercase;
+    line-height: 34px !important;
+    margin: 20px auto 0 auto;
+}
+
+.slog a {
+    background: #4B4B4B !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    display: block !important;
+    width: 180px !important;
+    color: #fff !important;
+    padding: 20px 0px !important;
+    font-family: Manrope;
+    border: 0 !important;
+    border-radius: 12px !important;
+    margin: 20px auto 0 auto !important;
+}
+
+#logohold {
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+    z-index: 999;
+}
+
+#logohold a {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#tomenouholder {
+    position: relative;
+    float: left;
+    width: 60%;
+    text-align: center;
+    z-index: 999;
+}
+
+#tomenou {
+    background: rgba(41, 41, 41, .7);
+    border-radius: 18px;
+    padding: 8px 0;
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+#tomenou a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 14px;
+    padding: 14px 40px;
+    display: inline-block;
+}
+
+#tomenou a:hover {
+    background: #4B4B4B;
+}
+
+#tomenou a.active {
+    background: #4B4B4B;
+}
+
+#topdetashold {
+    position: relative;
+    float: left;
+    width: 20%;
+    z-index: 10;
+    text-align: right;
+}
+
+#topdetashold a {
+    display: inline-block;
+    width: 133px;
+    padding: 16px 0;
+    text-align: center;
+    background: rgba(41, 41, 41, .7);
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:1200px) {
+    #topdetashold {
+        display: none;
+    }
+    #tomenouholder {
+        position: relative;
+        float: right;
+        width: 80%;
+        text-align: center;
+        z-index: 10;
+    }
+    #tomenou {
+        float: right;
+        padding: 8px 9px;
+    }
+    #tomenou a {
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+        border-radius: 14px;
+        padding: 14px 20px;
+        display: inline-block;
+    }
+    #logohold {
+        display: block;
+        position: relative;
+        float: left;
+        width: 20%;
+        z-index: 999;
+    }
+}
+
+@media only screen and (max-width:751px) {
+    .menuholder {
+        padding: 21px 15px 0px 15px;
+    }
+}
+
+@media only screen and (max-width:677px) {
+    #tomenou a {
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+        border-radius: 14px;
+        padding: 9px 9px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #tomenouholder {
+        position: relative;
+        float: none;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+    }
+    #logohold {
+        display: block;
+        position: relative;
+        float: none;
+        width: 100%;
+        z-index: 999;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #tomenou {
+        position: fixed;
+        bottom: 20px;
+        float: none;
+        padding: 8px 0px;
+        text-align: center;
+        left: 15px;
+        right: 15px;
+    }
+    #tomenou a {
+        color: #fff;
+        font-weight: 400;
+        font-size: 12px;
+        border-radius: 14px;
+        padding: 9px 10px;
+        display: inline-block;
+    }
+    .menuholder {
+        padding: 3px 15px 0px 15px;
+    }
+}
+
+.button_container {
+    position: relative !important;
+    width: 27px;
+    font-size: 12px;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .25s ease;
+    height: 27px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.button_container:hover {
+    opacity: 0.9;
+}
+
+.button_container span {
+    background: #fff;
+    border: none;
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    transition: all .35s ease;
+    cursor: pointer;
+    left: 0px;
+}
+
+.button_container span:nth-of-type(1) {
+    top: 10px;
+    width: 27px;
+    transition: all .35s ease;
+}
+
+.button_container span:nth-of-type(2) {
+    top: 19px;
+    width: 27px;
+    transition: all .35s ease;
+}
+
+.button_container span:nth-of-type(3) {
+    top: 28px;
+    width: 27px;
+    transition: all .35s ease;
+}
+
+.button_container:hover span:nth-of-type(2) {
+    left: 7px;
+    transition: all .50s ease;
+}
+
+.button_container.active:hover span:nth-of-type(2) {
+    left: 0px;
+    transition: all .50s ease;
+}
+
+.button_container.active .top {
+    -webkit-transform: translateY(7px) translateX(0) rotate(45deg);
+    transform: translateY(7px) translateX(0) rotate(45deg);
+    transition: all .35s ease; 
+}
+
+.button_container.active .middle {
+    -webkit-transform: translateY(-4px) translateX(0) rotate(-45deg);
+    transform: translateY(-4px) translateX(0) rotate(-45deg);
+    transition: all .35s ease;
+}
+
+.button_container.active .bottom {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    background: #222 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 100%;
+    width: 0%;
+    transition: opacity .35s, visibility .35s, height .35s, width .35s;
+    overflow: auto;
+    z-index: 992;
+}
+
+.overlay.open {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    width: 50%;
+}
+
+@media only screen and (max-width:935px) {
+    .overlay.open {
+        width: 100%;
+    }
+}
+
+.overlay.open li {
+    -webkit-animation: fadeInUp 0.45s ease forwards;
+    animation: fadeInUp 0.45s ease forwards;
+}
+
+.overlay.open li:nth-of-type(1) {
+    -webkit-animation-delay: .30s;
+    animation-delay: .30s;
+}
+
+.overlay.open li:nth-of-type(2) {
+    -webkit-animation-delay: .40s;
+    animation-delay: .40s;
+}
+
+.overlay.open li:nth-of-type(3) {
+    -webkit-animation-delay: 0.50s;
+    animation-delay: 0.50s;
+}
+
+.overlay.open li:nth-of-type(4) {
+    -webkit-animation-delay: 0.60s;
+    animation-delay: 0.60s;
+}
+
+.overlay.open li:nth-of-type(5) {
+    -webkit-animation-delay: 0.70s;
+    animation-delay: 0.70s;
+}
+
+.overlay.open li:nth-of-type(6) {
+    -webkit-animation-delay: 0.80s;
+    animation-delay: 0.80s;
+}
+
+.overlay .plirofories {
+    color: #fff;
+    position: relative;
+    display: block;
+    opacity: 0;
+    margin-top: 40px;
+}
+
+.overlay.open .plirofories {
+    -webkit-animation: fadeInUp 0.5s ease forwards;
+    animation: fadeInUp 0.5s ease forwards;
+    -webkit-animation-delay: 1.00s;
+    animation-delay: 1.00s
+}
+
+.plirofories a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    padding: 9px 0;
+    font-weight: 400;
+}
+
+.koumpimenu {
+    font-weight: 800;
+    font-size: 13px !important;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff !important;
+    padding: 7px 0px 7px 0px !important;
+    display: inline-block;
+    width: 140px;
+    border: 3px solid #fff;
+    border-radius: 36px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+.koumpimenu:hover {
+    opacity: 0.6;
+}
+
+.plirofories a:hover {
+    opacity: 0.6;
+    color: #fff;
+}
+
+.overlay nav {
+    z-index: 9991;
+}
+
+
+.overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: relative
+}
+
+.overlay ul li {
+    display: block;
+    position: relative;
+    opacity: 0;
+}
+
+.overlay ul li:nth-of-type(8) {
+    padding-right: 0px;
+}
+
+.overlay ul li a {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 76px;
+    line-height: 70px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Manrope;
+    padding: 7px 0;
+    transition: all 1s ease;
+    opacity: 0.7;
+}
+
+html:lang(el) .overlay ul li a {
+    font-family: Manrope;
+}
+
+@media only screen and (max-width:1016px) {
+    .overlay ul li a {
+        font-size: 56px;
+        line-height: 56px;
+    }
+}
+
+@media only screen and (max-width:625px) {
+    .overlay ul li a {
+        font-size: 46px;
+        line-height: 46px;
+    }
+}
+
+@media only screen and (max-width:468px) {
+    .overlay ul li a {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .overlay .plirofories {
+        color: #fff;
+        position: relative;
+        display: block;
+        opacity: 0;
+        margin-top: 15px;
+    }
+    .overlay .plirofories .koumpiborder3 {
+        margin-top: 10px;
+    }
+    .overlay .wpml-ls-legacy-list-horizontal {
+        position: absolute !important;
+        top: 20px !important;
+        right: 00px !important;
+        left: auto !important;
+        z-index: 999992 !important;
+    }
+}
+
+.overlay ul li a:hover {
+    opacity: 1;
+    padding: 7px 0 7px 7px;
+    transition: all 1s ease;
+}
+
+.overlay ul li.active a {
+    opacity: 1;
+}
+
+.toggle2 {
+    padding-left: 50px
+}
+
+.overlay nav {
+    width: 80%;
+    margin: 150px 0 0 10%;
+}
+
+@media only screen and (max-width:600px) and (min-width:100px) {
+    .overlay nav {
+        max-width: 240px;
+        margin: 120px 0 0 35px;
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        top: -20%
+    }
+    100% {
+        opacity: 1;
+        top: 0
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        top: -20%
+    }
+    100% {
+        opacity: 1;
+        top: 0
+    }
+}
+
+.hotelholder {
+    margin-bottom: 64px;
+}
+
+.hotelimage {
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all 0.7s linear;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.hotelimage a {
+    display: block;
+}
+
+.hotelimage img {
+    width: 100%;
+}
+
+.hotelimage:hover img {
+    -webkit-transition: all 0.7s linear;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.hoteloverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: block;
+    width: 100%;
+}
+
+.hoteloverlay img {
+    width: 100%;
+}
+
+.thelogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25% 0;
+    display: block;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}
+
+.thelogo img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hoteltitle {
+    font-size: 24px;
+    font-family: Quattrocento;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.hoteltitle a {
+    font-size: 24px;
+    font-family: Quattrocento;
+    color: #fff;
+}
+
+.hoteltitle a:hover {
+    color: #ccc;
+}
+
+.hotelcontent {
+    font-size: 16px;
+    font-family: Manrope;
+    color: #A7A7A7;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.hotelcontent p {
+    font-size: 16px;
+    font-family: Manrope;
+    color: #A7A7A7;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.abouttop {
+    padding: 92px 50px 0 50px;
+}
+
+.abouttop p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: Quattrocento;
+    color: #fff !important;
+    max-width: 890px;
+    margin: 55px auto 0 auto;
+    text-align: center;
+}
+
+.hotels {}
+
+.hotelseikona {
+    border-bottom: 1px solid #4B4B4B;
+    border-right: 1px solid #4B4B4B;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+    vertical-align: middle;
+}
+
+.hotelseikona img {
+    max-width: 200px;
+}
+
+.hotelseikona:nth-of-type(5) {
+    border-right: 0;
+}
+
+.hotelseikona:nth-of-type(6) {
+    border-bottom: 0;
+}
+
+.hotelseikona:nth-of-type(7) {
+    border-bottom: 0;
+}
+
+.hotelseikona:nth-of-type(8) {
+    border-bottom: 0;
+}
+
+.hotelseikona:nth-of-type(9) {
+    border-bottom: 0;
+}
+
+.hotelseikona:nth-of-type(10) {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+@media only screen and (max-width:1240px) {
+    .hotelseikona {
+        border-bottom: 1px solid #4B4B4B;
+        border-right: 1px solid #4B4B4B;
+        width: 50%;
+        float: left;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hotelseikona img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1069px) {
+    .hotelseikona {
+        border-bottom: 1px solid #4B4B4B;
+        border-right: 1px solid #4B4B4B;
+        width: 50%;
+        float: left;
+        padding: 12px 0;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .hotelseikona img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1240px) {
+    .hotelseikona:nth-of-type(2) {
+        border-right: 0;
+    }
+    .hotelseikona:nth-of-type(4) {
+        border-right: 0;
+    }
+    .hotelseikona:nth-of-type(5) {
+        border-right: 1px solid #4B4B4B;
+    }
+    .hotelseikona:nth-of-type(7) {
+        border-bottom: 1px solid #4B4B4B;
+    }
+    .hotelseikona:nth-of-type(6) {
+        border-right: 0;
+        border-bottom: 1px solid #4B4B4B;
+    }
+    .hotelseikona:nth-of-type(8) {
+        border-right: 0;
+        border-bottom: 1px solid #4B4B4B;
+    }
+    .hotelseikona:nth-of-type(9) {
+        border-right: 1px solid #4B4B4B;
+        border-bottom: 0;
+    }
+    .hotelseikona:nth-of-type(10) {
+        border-right: 0;
+        border-bottom: 0;
+    }
+}
+
+.about {
+    padding: 92px 50px 0 50px;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: Quattrocento;
+    color: #fff !important;
+    max-width: 890px;
+    margin: 55px auto 0 auto;
+    text-align: center;
+}
+
+.proc3 {
+    text-align: center;
+}
+
+.proc3 h2 {
+    font-family: Quattrocento;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+}
+
+.proc3 h2::after {
+    content: '';
+    display: block;
+    margin: 32px auto 0 auto;
+    height: 1px;
+    width: 72px;
+    background: #4B4B4B;
+}
+
+.services {
+    border-radius: 12px;
+    background: url(images/thegrad.png) repeat-x 0 0;
+    margin-top: 100px;
+    padding: 92px 50px 0 50px;
+}
+
+.proc2 {
+    text-align: center;
+}
+
+.proc2 h2 {
+    font-family: Quattrocento;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+}
+
+.proc2 h2::after {
+    content: '';
+    display: block;
+    margin: 32px auto 0 auto;
+    height: 1px;
+    width: 72px;
+    background: #fff;
+}
+
+.services p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9D9D9 !important;
+    max-width: 690px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.servicedetails {
+    max-width: 560px;
+    margin: 60px auto 70px auto;
+}
+
+.servicedetails span {
+    width: 32%;
+    display: inline-block;
+    border: 1px solid #4B4B4B;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 17px;
+    padding: 16px 0;
+    transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    -o-transition: all 0.9s
+}
+
+.servicedetails span:hover {
+    border: 1px solid #fff;
+    transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -webkit-transition: all 0.9s;
+    -o-transition: all 0.9s
+}
+
+.sendenq {
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.sendenq span {
+    display: block;
+}
+
+.sendenq a {
+    background: #fff !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    display: block !important;
+    width: 300px !important;
+    color: #000 !important;
+    padding: 20px 0px !important;
+    border: 0 !important;
+    border-radius: 12px !important;
+    margin: 30px auto 0 auto !important;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.sendenq a:hover {
+    width: 320px !important;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.proc {
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+
+.proc h2 {
+    font-family: Quattrocento;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+}
+
+.proc h2::after {
+    content: '';
+    display: block;
+    margin: 32px auto 0 auto;
+    height: 1px;
+    width: 72px;
+    background: #4B4B4B;
+}
+
+.grad {
+    border-radius: 12px;
+    background: url(images/thegrad.png) repeat-x 0 0;
+    margin-top: 190px;
+    padding: 92px 50px;
+}
+
+.grad1 {
+    float: left;
+    width: 38%;
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 32px;
+}
+
+.grad2 {
+    float: right;
+    width: 59%;
+}
+
+.grad1 h2,
+.grad2 h2 {
+    font-family: Quattrocento;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+}
+
+.grad1 h2::after,
+.grad2 h2::after {
+    content: '';
+    display: block;
+    margin-top: 32px;
+    height: 1px;
+    width: 72px;
+    background: #fff;
+}
+
+.grad1 a {
+    color: #fff;
+}
+
+.grad1 a:hover {
+    color: #ccc;
+}
+
+.grad1 p,
+.grad2 p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A7A7A7;
+    max-width: 445px;
+    margin-top: 34px;
+}
+
+.grad1 h3,
+.grad2 h3 {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 20px;
+    color: #A7A7A7;
+    margin-bottom: 40px;
+    display: block;
+    margin-top: 74px;
+}
+
+.formaepi {
+    margin-top: 60px;
+}
+
+#foot {
+    padding: 0px 0 50px 0;
+    color: #BD9A5F;
+    position: relative;
+}
+
+@media only screen and (max-width:767px) {
+    .formaep {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 35px;
+    }
+}
+
+#copy1 {
+    width: 50%;
+    float: left;
+    padding: 0px 0 0px 0;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#copy2 {
+    width: 50%;
+    font-weight: 400;
+    float: right;
+    font-size: 14px;
+    padding: 0px 0 0px 0;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+#copy1 a {
+    color: #fff !important;
+    display: inline-block;
+}
+
+#copy1 a:hover {
+    color: #ccc !important
+}
+
+#copy2 a {
+    color: #fff !important
+}
+
+#copy2 a:hover {
+    color: #ccc !important
+}
+
+.pageeikona {
+    margin-top: 0px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 100vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.pageeikona::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background: #000;
+    opacity: 0.4;
+}
+
+.nav-links {
+    padding: 16px 0 16px;
+    position: relative;
+    text-align: center
+}
+
+.meta-nav {
+    display: none
+}
+
+.page-numbers {
+    padding: 4px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-align: center
+}
+
+.current2 {
+    padding: 4px 10px;
+    border-radius: 50%;
+    background: #0cc;
+    color: #fff
+}
+
+.page-numbers:hover {
+    padding: 4px 10px;
+    border-radius: 50%;
+    background: #0cc;
+    color: #fff
+}
+
+.next {
+    position: absolute;
+    border-left: 1px solid #ccc;
+    right: 0;
+    top: 13px;
+    background: transparent url(images/sign1.png) no-repeat 210px 0;
+    padding: 3px 80px 6px 90px !important;
+    border-radius: 0% !important
+}
+
+.next:hover {
+    position: absolute;
+    right: 0;
+    top: 13px;
+    border-left: 1px solid #ccc;
+    background: transparent url(images/sign1.png) no-repeat 215px 0;
+    padding: 3px 70px 6px 100px !important;
+    border-radius: 0% !important;
+    color: #0cc
+}
+
+.prev {
+    position: absolute;
+    border-right: 1px solid #ccc;
+    left: 0;
+    top: 13px;
+    background: transparent url(images/sign2.png) no-repeat 29px 0;
+    padding: 3px 80px 6px 90px !important;
+    border-radius: 0% !important
+}
+
+.prev:hover {
+    position: absolute;
+    left: 0;
+    top: 13px;
+    border-right: 1px solid #ccc;
+    background: transparent url(images/sign2.png) no-repeat 24px 0;
+    padding: 3px 90px 6px 80px !important;
+    border-radius: 0% !important;
+    color: #0cc
+}
+
+.tokoumpi {
+    border: 2px solid #fee8d0;
+    padding: 10px 20px;
+}
+
+.tokoumpi:hover {
+    border: 2px solid #000;
+    padding: 10px 20px;
+}
+
+.fluentform .ff-el-form-control {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #a7a7a7 !important;
+    border-radius: 0px !important;
+    background: transparent !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+
+.fluentform .ff_btn_style {
+    background: #fff !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    color: #000 !important;
+    padding: 20px 0px !important;
+    border: 0 !important;
+    border-radius: 12px !important;
+    margin-top: 20px !important;
+}
+
+.fluentform .ff-el-input--label label {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: #222 !important;
+    display: none !important;
+}
+
+.fluentform .ff-el-input--label {
+    display: none !important;
+}
+
+#return-to-top {
+    position: absolute;
+    bottom: 530px;
+    right: 10px;
+    opacity: 0.5;
+    width: 100px;
+    FONT-SIZE: 14PX;
+    color: #fff;
+    font-family: Quattrocento;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    text-align: center;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+#return-to-top img {
+    width: 17px;
+    margin: 9px auto 0 auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover img {
+    margin: 4px auto 0 auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width:1389px) {
+    #return-to-top {
+        bottom: 330px;
+    }
+}
+
+.accordion__item {
+    margin: 5px auto;
+}
+
+.accordion__item .accordion__title {
+    position: relative;
+    display: block;
+    padding: 20px 60px 20px 0px;
+    margin-bottom: 2px;
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-family: Quattrocento !important;
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #4B4B4B;
+    cursor: pointer;
+}
+
+html:lang(el) .contt {
+    font-family: Manrope;
+}
+
+.sin {
+    display: block;
+    width: 35px;
+    float: right;
+    font-weight: 100;
+    font-family: Manrope;
+    font-size: 48px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.plin {
+    display: none;
+    width: 35px;
+    float: right;
+    font-weight: 100;
+    font-family: Manrope;
+    font-size: 48px;
+    line-height: 24px;
+    color: #fff;
+}
+
+@media only screen and (max-width:1220px) {
+    .accordion__item .accordion__title {
+        line-height: 45px;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width:741px) {
+    .accordion__item .accordion__title {
+        line-height: 35px;
+        font-size: 26px;
+    }
+    .sin {
+        display: block;
+        width: 35px;
+        float: right;
+        font-weight: 100;
+        font-family: Manrope;
+        font-size: 48px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .plin {
+        display: none;
+        width: 35px;
+        float: right;
+        font-weight: 100;
+        font-family: Manrope;
+        font-size: 48px;
+        line-height: 24px;
+        color: #fff;
+    }
+}
+
+.accordion__item .accordion__title:hover {
+    transition: all 0.5s ease-out;
+}
+
+.accordion__item .accordion-active {}
+
+.accordion__item .accordion__title .accordion__arrow {
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.accordion__item .accordion__sin .sin {
+    display: none;
+}
+
+.accordion__item .accordion__sin .plin {
+    display: block;
+}
+
+.accordion__item .accordion__content {
+    padding: 30px 0;
+    margin-bottom: 2px;
+    display: none;
+    font-family: Manrope !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 32px;
+    color: #A7A7A7 !important;
+}
+
+.accordion__item .accordion__content p {
+    font-family: Manrope !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 32px;
+    color: #A7A7A7 !important;
+    margin-bottom: 0px !important;
+}
+
+.accordion__item .accordion__content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.accordion__item .accordion__content ul li {}
+
+.accordion__item .accordion__arrow-item {
+    font-weight: 700;
+}
+
+@media only screen and (max-width:935px) {
+    .righttop {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .lefttop {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .middletop {
+        padding: 0 20px;
+    }
+    .about p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        font-family: Quattrocento;
+        color: #fff !important;
+        max-width: 890px;
+        margin: 55px auto 0 auto;
+        text-align: center;
+    }
+    .about {
+        padding: 92px 0px 0 0px;
+    }
+    .pagewrap {
+        margin: 0 auto;
+        padding: 0 15px 0 15px;
+        position: relative;
+    }
+    .services {
+        border-radius: 12px;
+        background: url(images/thegrad.png) repeat-x 0 0;
+        margin-top: 100px;
+        padding: 92px 10px 0 10px;
+    }
+    .proc {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    .grad {
+        border-radius: 12px;
+        background: url(images/thegrad.png) repeat-x 0 0;
+        margin-top: 30px;
+        padding: 92px 10px;
+    }
+    #works {
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .pagewrapfooter {
+        margin: 0 auto;
+        padding: 0 10px 0 10px;
+        position: relative
+    }
+    .grad1 {
+        float: none;
+        width: 100%;
+        font-family: Manrope;
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        line-height: 32px;
+    }
+    .grad2 {
+        float: none;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .biglogo {
+        padding: 0 0px;
+        margin-bottom: 50px;
+        margin-top: 150px;
+    }
+    .abouttop {
+        padding: 92px 10px 0 10px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .servicedetails span {
+        width: 48%;
+        display: inline-block;
+        border: 1px solid #4B4B4B;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+        margin-right: 5px;
+        margin-bottom: 17px;
+        padding: 16px 0;
+    }
+    .servicedetails span:nth-of-type(2) {
+        margin-right: 0px;
+    }
+    .servicedetails span:nth-of-type(4) {
+        margin-right: 0px;
+    }
+    .servicedetails span:nth-of-type(6) {
+        margin-right: 0px;
+    }
+    .servicedetails span:nth-of-type(8) {
+        margin-right: 0px;
+    }
+    .servicedetails span:nth-of-type(10) {
+        margin-right: 0px;
+    }
+}
